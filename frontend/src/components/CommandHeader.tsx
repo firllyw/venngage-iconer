@@ -14,9 +14,9 @@ export const CommandHeader = ({ activeStyleId }: CommandHeaderProps) => {
         <p className="tone-pill">
           <Sparkles size={16} /> Icon Ensembles Lab
         </p>
-        <h1>Flux Atelier</h1>
+        <h1>Venngage Flux</h1>
         <p style={{ margin: 0, color: 'var(--text-muted)' }}>
-          Feed the atelier a single idea and get a quartet of icons with synchronized style DNA.
+          Feed Venngage a single idea and get a quartet of icons with synchronized style DNA.
         </p>
       </div>
       <div className="metrics-bar" aria-live="polite">
@@ -31,12 +31,6 @@ export const CommandHeader = ({ activeStyleId }: CommandHeaderProps) => {
         <div className="metric">
           <span>Palette Hint</span>
           <strong>{activeStyle?.paletteHint ?? '---'}</strong>
-        </div>
-        <div className="metric">
-          <span>Safety</span>
-          <strong style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-            <ShieldCheck size={16} /> Guarded
-          </strong>
         </div>
         <div className="metric">
           <span>Load</span>
