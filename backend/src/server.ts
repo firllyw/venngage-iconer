@@ -20,6 +20,7 @@ export const buildServer = () => {
           },
   });
 
+  console.log('allowedOrigins', env.allowedOrigins);
   app.register(cors, {
     origin: env.allowedOrigins,
     credentials: true,
